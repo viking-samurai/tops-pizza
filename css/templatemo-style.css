@@ -112,7 +112,7 @@ Additional CSS
 	.pizza-menu-item{
 		color: black;
 		font-size: 1.4rem;
-		min-width: 3em;
+		width: 3em;
 		line-height: .9;
 	}
 
