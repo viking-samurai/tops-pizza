@@ -99,7 +99,7 @@ Additional CSS
 @media only screen and (max-width: 650px)  {
 	.list-item-name{
 		margin: auto 0;
-		margin-left: -3.5em;
+		margin-left: -3.8em;
 	}
 
 	.sizes-item{
@@ -112,12 +112,12 @@ Additional CSS
 	.pizza-menu-item{
 		color: black;
 		font-size: 1.4rem;
-		min-width: 3.8em;
+		min-width: 3em;
 		line-height: .9;
 	}
 
 	.pizza-menu-item-description{
-		margin-left: -3em;
+		margin-left: -.8em;
 		margin-top: -.44em;
 		line-height: .9;
 		color: #9a9a9a;
