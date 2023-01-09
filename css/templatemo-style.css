@@ -29,7 +29,7 @@ Additional CSS
 .features-div{
 	width: 8em;
 	text-align: right;
-	margin-right: .44em;
+	margin-right: 1em;
 }
 
 .pizza-menu-list-item{
@@ -51,8 +51,8 @@ Additional CSS
 }
 
 .list-item-name{
-	margin: .4em;
-	margin-left: -1em;
+	margin: auto 0;
+	margin-left: -2.2em;
 }
 
 .sizes-list-div{
@@ -73,7 +73,7 @@ Additional CSS
 .sizes-item{
 	display: flex;
 	text-align: center;
-	width: 4em;
+	width: 3.8em;
 }
 
 .item-description{
@@ -83,11 +83,14 @@ Additional CSS
 
 .pizza-menu-item{
 	color: black;
-	min-width: 4em;
+	font-size: 1.4rem;
+	min-width: 4.4em;
+	line-height: .8;
 }
 
 .pizza-menu-item-description{
-	margin: 0 auto auto -.334em;
+	margin-left: -2.2em;
+	margin-top: -.7em;
 	line-height: .8;
 	color: #9a9a9a;
 }
