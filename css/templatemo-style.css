@@ -106,7 +106,7 @@ Additional CSS
 		display: flex;
 		text-align: left;
 		min-width: 3em;
-		margin: auto;
+		margin-left: 0;
 	}
 
 	.pizza-menu-item{
