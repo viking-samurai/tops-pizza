@@ -73,7 +73,7 @@ Additional CSS
 .sizes-item{
 	display: flex;
 	text-align: center;
-	width: 4.4em;
+	width: 4em;
 }
 
 .item-description{
@@ -83,7 +83,7 @@ Additional CSS
 
 .pizza-menu-item{
 	color: black;
-	min-width: 6em;
+	min-width: 4em;
 }
 
 .pizza-menu-item-description{
