@@ -105,14 +105,14 @@ Additional CSS
 	.sizes-item{
 		display: flex;
 		text-align: left;
-		width: 4em;
+		min-width: 4em;
 		margin: auto;
 	}
 
 	.pizza-menu-item{
 		color: black;
 		font-size: 1.4rem;
-		width: 3em;
+		min-width: 3em;
 		line-height: .9;
 	}
 
