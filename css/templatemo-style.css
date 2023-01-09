@@ -74,7 +74,7 @@ Additional CSS
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	margin: auto;
+	margin: auto 0 auto auto;
 }
 
 .sizes-item{
@@ -110,13 +110,14 @@ Additional CSS
 	}
 
 	.sizes-list{
-		margin-left: -2em;
+		margin-left: -2.5em;
 	}
 
 	.sizes-item{
 		display: flex;
 		text-align: left;
 		min-width: 3em;
+		margin: auto .1em;
 	}
 
 	.pizza-menu-item{
