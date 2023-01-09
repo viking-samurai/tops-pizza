@@ -52,7 +52,7 @@ Additional CSS
 
 .list-item-name{
 	margin: auto 0;
-	margin-left: -2.2em;
+	margin-left: -2.8em;
 }
 
 .sizes-list-div{
@@ -73,7 +73,8 @@ Additional CSS
 .sizes-item{
 	display: flex;
 	text-align: center;
-	width: 3.8em;
+	width: 3.5em;
+	margin: auto .2em;
 }
 
 .item-description{
@@ -89,9 +90,9 @@ Additional CSS
 }
 
 .pizza-menu-item-description{
-	margin-left: -2.2em;
-	margin-top: -.7em;
-	line-height: .8;
+	margin-left: -2em;
+	margin-top: -.44em;
+	line-height: .9;
 	color: #9a9a9a;
 }
 
