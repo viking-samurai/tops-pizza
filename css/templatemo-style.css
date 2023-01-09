@@ -102,17 +102,20 @@ Additional CSS
 		margin-left: -4em;
 	}
 
+	.sizes-list{
+		margin-left: -1em;
+	}
+
 	.sizes-item{
 		display: flex;
 		text-align: left;
 		min-width: 3em;
-		margin-left: 0;
 	}
 
 	.pizza-menu-item{
 		color: black;
 		font-size: 1.4rem;
-		width: .1em;
+		width: 1em;
 		line-height: .9;
 	}
 
