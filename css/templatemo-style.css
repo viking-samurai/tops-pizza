@@ -63,6 +63,13 @@ Additional CSS
 	margin-right: 0;
 }
 
+.sizes-list-guide{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: auto;
+}
+
 .sizes-list{
 	display: flex;
 	flex-direction: row;
@@ -103,7 +110,7 @@ Additional CSS
 	}
 
 	.sizes-list{
-		margin-left: -1em;
+		margin-left: -2em;
 	}
 
 	.sizes-item{
