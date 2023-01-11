@@ -80,7 +80,6 @@ Additional CSS
 .sizes-item{
 	display: flex;
 	text-align: center;
-	font-size: 1.55rem;
 	width: 3.5em;
 	margin: auto .2em;
 }
@@ -92,17 +91,16 @@ Additional CSS
 
 .pizza-menu-item{
 	color: black;
-	font-size: 1.667rem;
-	min-width: 10em;
+	font-size: 1.4rem;
+	min-width: 4.4em;
 	line-height: .8;
 }
 
 .pizza-menu-item-description{
-	font-size: 1.4rem;
 	margin-left: -2em;
 	margin-top: -.44em;
-	width: 28em;
-	color: #747474;
+	line-height: .9;
+	color: #9a9a9a;
 }
 
 @media only screen and (max-width: 650px)  {
@@ -118,23 +116,22 @@ Additional CSS
 	.sizes-item{
 		display: flex;
 		text-align: left;
-		font-size: 1.4rem;
 		min-width: 3em;
 		margin: auto .1em;
 	}
 
 	.pizza-menu-item{
 		color: black;
-		font-size: 1.55rem;
-		width: 10em;
+		font-size: 1.4rem;
+		width: .1em;
 		line-height: .9;
 	}
 
 	.pizza-menu-item-description{
 		margin-left: -4em;
 		margin-top: -.44em;
-		width: 20em;
-		color: #747474;
+		line-height: .9;
+		color: #9a9a9a;
 	}
   }
 
@@ -160,10 +157,6 @@ Additional CSS
 .left-title{
 	text-align: left;
 	font-weight: 600;
-}
-
-.center-text{
-	text-align: center;
 }
 
 .dish-item-text{
