@@ -135,6 +135,62 @@ Additional CSS
 	}
   }
 
+  /*Not-pizza menu*/
+.menu-columns{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	border: solid white 1px;
+}
+
+.dish-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.dish-item-text{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.signature-dish-item{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border: solid white 1px;
+}
+
+.signature-stamp{
+	margin: auto;
+}
+
+.signature-text{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.wing-flavours-div{
+	display: flex;
+	flex-direction: column;
+}
+
+.wing-flavours-list{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 650px)  {
+	.menu-columns{
+		display: flex;
+		flex-direction: column;
+	}
+  }
 
 /*
 
@@ -144,10 +200,12 @@ http://www.templatemo.com/tm-507-victory
 
 */
 
+/*
 * {
     margin: 0;
     font-family: 'Roboto', arial, sans-serif;
 }
+*/
 
 body {
 	overflow-x: hidden;
