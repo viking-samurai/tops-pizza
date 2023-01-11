@@ -17,6 +17,10 @@ Additional CSS
 	width: 100%;
 }
 
+#contact{
+	color: #d44457;
+}
+
 /*pizza-menu.html*/
 .additional-pizza-features{
 	margin: .66em auto;
@@ -154,9 +158,20 @@ Additional CSS
 	font-weight: 600;
 }
 
+.center-text{
+	text-align: center;
+}
+
 .left-title{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
 	text-align: left;
 	font-weight: 600;
+}
+
+.left-text{
+	text-align: left;
 }
 
 .dish-item-text{
@@ -176,7 +191,9 @@ Additional CSS
 }
 
 .signature-dish{
-	max-width: 5em;
+	max-width: 1.667em;
+	margin: auto .5em;
+	margin-top: -.44em;
 }
 
 .signature-text{
@@ -190,11 +207,11 @@ Additional CSS
 	flex-direction: column;
 }
 
-.wing-flavours-list{
+.wing-flavours{
 	display: flex;
 	flex-direction: row;
-	margin: 0;
-	padding: 0;
+	margin-left: 3em;
+	text-align: center;
 }
 
 @media only screen and (max-width: 650px)  {
@@ -231,7 +248,7 @@ ul {
 
 p {
 	color: #747474;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 24px;
 }
 
@@ -292,7 +309,7 @@ p {
 .navbar-brand {
 	font-family: 'Spectral', serif;
 	font-size: 44px;
-	color: #121212;
+	color: #d44457;
 	font-style: italic;
 	text-align: center;
 	width: 100%;
@@ -637,7 +654,7 @@ section.featured-food {
 	font-size: 28px;
 	width: 100%;
 	border-bottom: 1px solid #d9dde5;
-	color: #121212;
+	color: #d44457;
 }
 
 .food-item img {
@@ -909,7 +926,7 @@ section.breakfast-menu .price {
 	font-size: 28px;
 	width: 94.5%;
 	border-bottom: 1px solid #d9dde5;
-	color: #121212;
+	color: #d44457;
 }
 
 
