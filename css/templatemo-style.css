@@ -111,7 +111,7 @@ Additional CSS
 	color: #747474;
 }
 
-@media only screen and (max-width: 650px)  {
+@media only screen and (max-width: 750px)  {
 	.list-item-name{
 		margin: auto 0;
 		margin-left: -4em;
@@ -236,7 +236,7 @@ Additional CSS
 	text-align: center;
 }
 
-@media only screen and (max-width: 650px)  {
+@media only screen and (max-width: 750px)  {
 	.menu-columns{
 		display: flex;
 		flex-direction: column;
