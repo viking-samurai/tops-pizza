@@ -234,7 +234,7 @@ Additional CSS
 	display: none;
 	font-weight: 400;
 	margin: 1em;
-	font: comic;
+	text-decoration: underline;
 }
 
 .wing-flavours{
