@@ -234,6 +234,7 @@ Additional CSS
 	display: none;
 	font-weight: 400;
 	margin: 1em;
+	color: #d44457;
 	text-decoration: underline;
 }
 
@@ -687,7 +688,7 @@ section.featured-food {
 	background-color: #FFD233;
 	border: white;
 	padding: 30px;
-	margin: 1em;
+	margin: .44em;
 	border-radius: 5px;
 }
 
