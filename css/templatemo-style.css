@@ -31,7 +31,7 @@ Additional CSS
 }
 
 .pizza-menu{
-	list-style-type: decimal;
+	list-style-type: decimal !important;
 }
 
 .features-div{
@@ -112,9 +112,8 @@ Additional CSS
 }
 
 .pizza-menu-item-description{
-	margin-left: -2em;
-	margin-top: -.44em;
-	line-height: .9;
+	margin-left: -2.2em;
+	margin-top: -.5em;
 	color: #747474;
 }
 
@@ -242,6 +241,13 @@ Additional CSS
 	display: flex;
 	flex-direction: row;
 	text-align: center;
+}
+
+.additional-fixings{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 1em;
 }
 
 @media only screen and (max-width: 750px)  {
