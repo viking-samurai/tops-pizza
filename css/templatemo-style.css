@@ -254,6 +254,10 @@ Additional CSS
 		margin-left: -2.8em;
 	}
 
+	.wing-flavours-row{
+		margin-left: -2.5em;
+	}
+
 	.wing-flavours-column{
 		display: block;
 		margin: auto;
