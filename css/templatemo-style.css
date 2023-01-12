@@ -240,6 +240,7 @@ Additional CSS
 	}
 
 	.wing-flavours-row{
+		flex-direction: column;
 		margin-left: -2.8em;
 	}
   }
