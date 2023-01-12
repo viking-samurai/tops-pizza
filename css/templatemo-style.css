@@ -272,6 +272,11 @@ Additional CSS
 	.wing-flavours-img{
 		display: none;
 	}
+
+	.additional-fixings{
+		text-align: left;
+		margin: auto;
+	}
   }
 
 /*
