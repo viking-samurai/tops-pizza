@@ -4,6 +4,10 @@ Additional CSS
 
 */
 
+/*Global*/
+.page-title{
+	margin: auto;
+}
 
 /*index.html*/
 .specialties-row{
@@ -202,15 +206,26 @@ Additional CSS
 	text-align: left;
 }
 
-.wing-flavours-div{
+.wing-flavours-row{
+	display: flex;
+	flex-direction: row;
+	border-right: solid #747474 2px;
+}
+
+.wing-flavours-logo{
+	margin-top: 2em;
+	margin-left: 2em;
+}
+
+.all-wing-flavours{
 	display: flex;
 	flex-direction: column;
+	margin: .667em;
 }
 
 .wing-flavours{
 	display: flex;
 	flex-direction: row;
-	margin-left: 3em;
 	text-align: center;
 }
 
@@ -218,6 +233,14 @@ Additional CSS
 	.menu-columns{
 		display: flex;
 		flex-direction: column;
+	}
+
+	.dish-item{
+		margin-left: -2.8em;
+	}
+
+	.wing-flavours-row{
+		margin-left: -2.8em;
 	}
   }
 
