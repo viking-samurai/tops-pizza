@@ -212,15 +212,15 @@ Additional CSS
 	border-right: solid #747474 2px;
 }
 
-.wing-flavours-logo{
-	margin-top: 2em;
-	margin-left: 2em;
-}
-
 .all-wing-flavours{
 	display: flex;
 	flex-direction: column;
 	margin: .667em;
+}
+
+.wing-flavours-img{
+	height: 120px;
+	margin-top: 2em;
 }
 
 .wing-flavours{
@@ -242,6 +242,11 @@ Additional CSS
 	.wing-flavours-row{
 		flex-direction: column;
 		margin-left: -2.8em;
+	}
+
+	.wing-flavours-img{
+		height: 160px;
+		margin-top: auto;
 	}
   }
 
