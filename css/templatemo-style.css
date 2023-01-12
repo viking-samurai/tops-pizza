@@ -97,6 +97,13 @@ Additional CSS
 	flex-direction: column;
 }
 
+.menu-concern{
+	color: black;
+	font-size: 1.4rem;
+	min-width: 4.4em;
+	line-height: .8;
+}
+
 .pizza-menu-item{
 	color: black;
 	font-size: 1.4rem;
